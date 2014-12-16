@@ -40,7 +40,7 @@ html {
 body {
 	height: 100%;
     max-height: 100%;
-    font-family: 'roboto', serif;
+    font-family: 'Merriweather', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #383838;
@@ -48,7 +48,7 @@ body {
 	}
 	
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'roboto_slabregular', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	font-weight: normal;
 	text-rendering: optimizelegibility;
 	line-height: 1;
@@ -362,8 +362,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blogtitle_typesome a,  #site-head .header_typesome .blogtitle_typesome a {
-	font-family: 'roboto_slablight', sans-serif;
-	font-weight: 700;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 300;
 	font-size: 4.8rem;
 	color: #fff; 
 	text-shadow: 2px 2px 0px #000;
@@ -373,7 +373,8 @@ margin on the iframe, cause it breaks stuff. */
 	}
  
 .blogdescription_typesome {
-	font-family: 'roboto_slablight', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 300;
 	font-size: 1.6rem;
 	color: #eee;
 	line-height: 1.4;
@@ -444,7 +445,7 @@ margin on the iframe, cause it breaks stuff. */
 	/* Post title */
 
 .posttitle_typesome {
-	font-family: 'roboto_slabregular', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	padding: 1rem 0 1.2rem;
 	margin: 0;
 	line-height: 1.2em;
@@ -452,7 +453,7 @@ margin on the iframe, cause it breaks stuff. */
 	}
 
 .posttitle_typesome a {
-	font-family: 'roboto_slabregular', sans-serif;
+	font-family: 'Roboto SLab', sans-serif;
 	/*font-weight: bold;*/
 	color: #000;
 	text-decoration: none;
@@ -465,7 +466,7 @@ margin on the iframe, cause it breaks stuff. */
 	/* Post content */
 	
 .postcontent_typesome {
-	font-family: 'roboto', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.8rem;
 	color: #383838;
 	line-height: 1.6;
@@ -1280,10 +1281,10 @@ margin on the iframe, cause it breaks stuff. */
    @font-face {
     font-family: 'roboto_slabbold';
     src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Bold-webfont.eot');
-    src: url('../fonts/RobotoSlab-Bold-webfont.eot') format('embedded-opentype'),
-         url('../fonts/RobotoSlab-Bold-webfont.woff') format('woff'),
-         url('../fonts/RobotoSlab-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/RobotoSlab-Bold-webfont.svg') format('svg');
+    src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Bold-webfont.eot?') format('embedded-opentype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Bold-webfont.woff') format('woff'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Bold-webfont.ttf') format('truetype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Bold-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -1292,10 +1293,10 @@ margin on the iframe, cause it breaks stuff. */
 @font-face {
     font-family: 'roboto_slablight';
     src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Light-webfont.eot');
-    src: url('../fonts/RobotoSlab-Light-webfont.eot') format('embedded-opentype'),
-         url('../fonts/RobotoSlab-Light-webfont.woff') format('woff'),
-         url('../fonts/RobotoSlab-Light-webfont.ttf') format('truetype'),
-         url('../fonts/RobotoSlab-Light-webfont.svg') format('svg');
+    src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Light-webfont.eot?') format('embedded-opentype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Light-webfont.woff') format('woff'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Light-webfont.ttf') format('truetype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Light-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -1304,10 +1305,10 @@ margin on the iframe, cause it breaks stuff. */
 @font-face {
     font-family: 'roboto_slabregular';
     src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Regular-webfont.eot');
-    src: url('../fonts/RobotoSlab-Regular-webfont.eot') format('embedded-opentype'),
-         url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
-         url('../fonts/RobotoSlab-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/RobotoSlab-Regular-webfont.svg') format('svg');
+    src: url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Regular-webfont.eot?') format('embedded-opentype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('http://127.0.0.1:2368/assets/fonts/RobotoSlab-Regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -1316,7 +1317,7 @@ margin on the iframe, cause it breaks stuff. */
 @font-face {
     font-family: 'robotoregular';
     src: url('http://127.0.0.1:2368/assets/fonts/Roboto-Regular-webfont.eot');
-    src: url('../fonts/Roboto-Regular-webfont.eot') format('embedded-opentype'),
+    src: url('http://127.0.0.1:2368/assets/fonts/Roboto-Regular-webfont.eot?') format('embedded-opentype'),
          url('http://127.0.0.1:2368/assets/fonts/Roboto-Regular-webfont.woff') format('woff'),
          url('http://127.0.0.1:2368/assets/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
          url('http://127.0.0.1:2368/assets/fonts/Roboto-Regular-webfont.svg') format('svg');
