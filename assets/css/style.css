@@ -40,7 +40,7 @@ html {
 body {
 	height: 100%;
     max-height: 100%;
-    font-family: 'Merriweather', serif;
+    font-family: 'Georgia', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #383838;
@@ -48,8 +48,8 @@ body {
 	}
 	
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', sans-serif;
-	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 	text-rendering: optimizelegibility;
 	line-height: 1;
 	}	
@@ -301,8 +301,8 @@ margin on the iframe, cause it breaks stuff. */
    					3. General - The main styles for the the theme 
    ========================================================================== */
   
-.site-head {height: 600px;}
-#site-head {height: 600px;}
+.site-head {height: 400px;}
+#site-head {height: 400px;}
 
 .site-head, #site-head {
 	position: relative;
@@ -332,7 +332,7 @@ margin on the iframe, cause it breaks stuff. */
 	position: relative;
 	margin: 3rem auto;
 	width: 80%;
-	max-width: 700px;
+	max-width: 600px;
     display: block;
 	}
 
@@ -394,7 +394,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main_typesome {
 	width: 80%;
-	max-width: 700px;
+	max-width: 600px;
 	margin: 0 auto;
 	}
 	 	
@@ -445,17 +445,17 @@ margin on the iframe, cause it breaks stuff. */
 	/* Post title */
 
 .posttitle_typesome {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Raleway', serif;
 	padding: 1rem 0 1.2rem;
 	margin: 0;
 	line-height: 1.2em;
-	color: #000;
+	color: #444;
 	}
 
 .posttitle_typesome a {
-	font-family: 'Roboto SLab', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	/*font-weight: bold;*/
-	color: #000;
+	color: #444;
 	text-decoration: none;
 	}
 
@@ -466,12 +466,13 @@ margin on the iframe, cause it breaks stuff. */
 	/* Post content */
 	
 .postcontent_typesome {
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.8rem;
-	color: #383838;
+	font-family: 'Georgia', serif;
+	font-size: 1.7rem;
+	color: #444;
 	line-height: 1.6;
 	padding-bottom: 2rem;
 	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
 	}
 
 
@@ -497,9 +498,9 @@ margin on the iframe, cause it breaks stuff. */
 
 .excerptfooter_typesome {
 	width: 100%;
-	border-bottom: 4px solid #000;
+	border-bottom: 1px solid #ddd;
 	position: relative;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 1.6rem;
 	color: #383838; 
@@ -507,7 +508,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .read_typesome {
 	/*padding-top: 1rem;*/
-	padding-bottom: 1.4rem;
+	padding-bottom: 6rem;
 	text-decoration: none;
 	}
 
@@ -599,7 +600,8 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .footer_typesome {
-	background: #2B2B2B;
+	background: #f5f5f5;
+	border-top:1px solid #ddd;
 	width: 100%;
 	}
 	
@@ -624,10 +626,7 @@ margin on the iframe, cause it breaks stuff. */
 	width: 32px;
 	height: 32px;
 	border-radius: 100%;
-	background: #383838;
-	-moz-box-shadow:    0px 0px 4px 0px rgba(0,0,0,0.20);
-	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.20);
-	box-shadow:         0px 0px 4px 0px rgba(0,0,0,0.20);
+	border:2px solid #bbb;
 	}
 	
 .footer_typesome ul:last-child {
@@ -644,16 +643,18 @@ margin on the iframe, cause it breaks stuff. */
 	}
 	
 .footer_typesome ul li:hover {
-     -webkit-box-shadow: 0 1px 4px rgba(0,0,0,1);
-   -moz-box-shadow: 0 1px 4px rgba(0,0,0,1);
-        box-shadow: 0 1px 4px rgba(0,0,0,1);
-   -webkit-transition:box-shadow 0.25s;
-   -moz-transition:box-shadow 0.25s;
-     -o-transition:box-shadow 0.25s;
-        transition:box-shadow 0.25s;
+ 	border:2px solid #aaa;
+    -webkit-transition:border 0.25s;
+   -moz-transition:border 0.25s;
+     -o-transition:border 0.25s;
+        transition:border 0.25s;
 		}
 .footer_typesome ul li a:hover {
-	color: #fff;
+	color: #4099ff !important;
+	-webkit-transition:color 0.25s;
+   	-moz-transition:color 0.25s;
+    -o-transition:color 0.25s;
+    transition:color 0.25s;
 	}
 		
     /* Tooltip */
@@ -706,9 +707,8 @@ margin on the iframe, cause it breaks stuff. */
     }
 	 
 .footer_typesome hr {
-	background: #383838;
-	height: 1px;
-	border-top: 1px #202020 solid;	
+	background: #ddd;
+	height: 1px;	
 	width: 35%;
 	margin: 2.4rem auto;
 	}
@@ -718,9 +718,8 @@ margin on the iframe, cause it breaks stuff. */
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1.4rem;
-	color: #bbb;
+	color: #aaa;
 	line-height: 1.4em;
-	text-shadow: 0px 1px 0px #000;
 	margin: 0;
 	}
 
