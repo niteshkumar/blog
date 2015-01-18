@@ -40,7 +40,7 @@ html {
 body {
 	height: 100%;
     max-height: 100%;
-    font-family: 'Georgia', serif;
+    font-family: 'Neuton', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #383838;
@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	text-rendering: optimizelegibility;
-	line-height: 1;
+	/*line-height: 1;*/
+	margin-bottom: 5px;
 	}	
 	
 ::-moz-selection {
@@ -99,7 +100,7 @@ h4 a, h5 a, h6 a {
 	}
 
 p, ul, ol, dl {
-    margin: 1.6em 0;
+    margin: 0 0 1.6em 0;
 	}
 
 ol ol, ul ul,
@@ -467,7 +468,7 @@ margin on the iframe, cause it breaks stuff. */
 	
 .postcontent_typesome {
 	font-family: 'Georgia', serif;
-	font-size: 1.7rem;
+	font-size: 1em;
 	color: #444;
 	line-height: 1.6;
 	padding-bottom: 2rem;
@@ -489,6 +490,7 @@ margin on the iframe, cause it breaks stuff. */
 .postcontent_typesome p:first-child {
 	margin: 0;
 	padding: 0;
+	margin-bottom: 1.6em;
 	}	
 
 
