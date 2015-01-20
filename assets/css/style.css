@@ -81,13 +81,13 @@ h6 { font-size: 1.8rem; }
 
 a {
     color: #383838;
-    /*transition: all ease 0.3s;*/
+    transition: all ease 0.3s;
 	}
 	
 a:visited { outline: none; }
 
 a:hover {
-    color: #F5B434 !important;
+    color: #009b77 !important;
 	}	
 		
 a:active { outline: none; }	
@@ -400,7 +400,7 @@ margin on the iframe, cause it breaks stuff. */
 	}
 	 	
 .article_typesome {
-	margin-bottom: 6rem;
+	margin-bottom: 0;
 	}
 	
 .postheader_typesome ul {
@@ -498,9 +498,15 @@ margin on the iframe, cause it breaks stuff. */
    								5. Third Party Elements
    ========================================================================== */
 
+.post_excrept_wrap
+{
+	width: 100%;
+	border-bottom:1px solid #ddd;
+	margin-bottom: 6rem;
+}
+
 .excerptfooter_typesome {
 	width: 100%;
-	border-bottom: 1px solid #ddd;
 	position: relative;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -1188,8 +1194,6 @@ margin on the iframe, cause it breaks stuff. */
 		.excerptfooter_typesome {
 			height: 10rem;
 			margin: 0 auto;
-			text-align: center;
-			border-top: 1px solid #ddd;
 			}
 		
 		.share_typesome {
