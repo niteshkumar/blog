@@ -87,7 +87,7 @@ a {
 a:visited { outline: none; }
 
 a:hover {
-    color: #009b77 !important;
+    color: #F5B434 !important;
 	}	
 		
 a:active { outline: none; }	
@@ -363,7 +363,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blogtitle_typesome a,  #site-head .header_typesome .blogtitle_typesome a {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Georgia', sans-serif;
+	-webkit-font-smoothing: antialiased;
 	font-weight: 300;
 	font-size: 4.8rem;
 	color: #fff; 
@@ -468,7 +469,7 @@ margin on the iframe, cause it breaks stuff. */
 	
 .postcontent_typesome {
 	font-family: 'Georgia', serif;
-	font-size: 1em;
+	font-size: 18px;
 	color: #444;
 	line-height: 1.6;
 	padding-bottom: 2rem;
