@@ -40,7 +40,7 @@ html {
 body {
 	height: 100%;
     max-height: 100%;
-    font-family: 'Georgia', serif;
+    font-family: 'PT Serif','Georgia', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: rgba(0,0,0,0.8);
@@ -48,9 +48,8 @@ body {
 	}
 	
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	text-rendering: optimizelegibility;
+	font-family: 'Proxima_novasemibold', sans-serif;
+	font-weight: normal;
 	/*line-height: 1;*/
 	margin-bottom: 5px;
 	}	
@@ -80,14 +79,14 @@ h5 { font-size: 2.2rem; }
 h6 { font-size: 1.8rem; }
 
 a {
-    color: #383838;
+    color: rgba(0,0,0,0.8);
     transition: all ease 0.3s;
 	}
 	
 a:visited { outline: none; }
 
 a:hover {
-    color: #F5B434 !important;
+    color: #009b77 !important;
 	}	
 		
 a:active { outline: none; }	
@@ -144,6 +143,7 @@ img {
 	height: auto;
 	margin: 0 auto;
     padding: 0.6em 0;
+    margin-bottom: 10px;
 	} 
 	
 blockquote {
@@ -335,6 +335,7 @@ margin on the iframe, cause it breaks stuff. */
 	width: 80%;
 	max-width: 600px;
     display: block;
+    text-align: center;
 	}
 
     /* Logo */
@@ -363,32 +364,108 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blogtitle_typesome a,  #site-head .header_typesome .blogtitle_typesome a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Proxima_novasemibold', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
-	font-size: 4.8rem;
+	font-size: 8.8rem;
 	color: #fff; 
-	text-shadow: 2px 2px 0px #000;
+	/*text-shadow: 2px 2px 0px #000;*/
 	text-decoration: none;
-	background: #000;
 	padding: 0px 8px;
 	}
+
+.blogtitle_typesome a:hover
+{
+	color: #fff !important;
+}
  
 .blogdescription_typesome {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Proxima_novalight', sans-serif;
 	font-weight: 300;
 	font-size: 1.6rem;
 	color: #eee;
 	line-height: 1.4;
 	text-shadow: 1px 1px 2px #000;
 	padding: 8px;
-	background: #000;
 	float:left;
 	margin-top: 0px;
 	/*width: 60%;
 	margin: 0 auto;*/
 	text-rendering: optimizelegibility;
 	}
+
+
+
+ /* ==========================================================================
+   					            3. Site header
+   ========================================================================== */
+
+.header
+{
+ 	height:60px;
+}
+
+.name 
+{
+	float: left;
+	padding: 20px 24px 15px 40px;
+	font-family: "Proxima_novasemibold";
+	color: rgba(0,0,0,0.8);
+}
+
+.name a 
+{
+	text-decoration: none;
+}
+
+.name a:hover
+{
+	text-decoration: none;
+	color:rgba(0,0,0,0.8) !important;
+}
+
+.nav
+{
+	float: right;
+	padding-right:40px;
+}
+
+.nav a 
+{
+	float:right;
+	padding: 20px 0px 15px 40px;
+	font-family: "Proxima_novasemibold";
+	font-size: 13px;
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: ease-in-out 0.3s;
+}
+
+.nav a:hover
+{
+	color: #333 !important;
+}
+
+.mark
+{
+	color: #333 !important;
+}
+
+.design
+{
+	color: #E2472E;
+}
+
+.blog
+{
+	color: #F5B434;
+}
+
+.about
+{
+	color: #009B77;
+}
 
 /* ==========================================================================
    								4. Articles
@@ -447,29 +524,29 @@ margin on the iframe, cause it breaks stuff. */
 	/* Post title */
 
 .posttitle_typesome {
-	font-family: 'Raleway', serif;
+	font-family: 'Proxima_novasemibold', serif;
 	padding: 1rem 0 1.2rem;
 	margin: 0;
 	line-height: 1.2em;
-	color: #444;
+	color: rgba(0,0,0,0.8);
 	}
 
 .posttitle_typesome a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Proxima_novasemibold', sans-serif;
 	/*font-weight: bold;*/
-	color: rgba(0,0,0,0.8);
+	color: #444;
 	text-decoration: none;
 	}
 
 .posttitle_typesome a:hover {
-	color: #5BA4E5;
+	color: #009b77;
 	}
 
 	/* Post content */
 	
 .postcontent_typesome {
-	font-family: 'Georgia', serif;
-	font-size: 16px;
+	font-family: 'PT Serif','Georgia', serif;
+	font-size: 17px;
 	color: rgba(0,0,0,0.8);
 	line-height: 1.7;
 	padding-bottom: 2rem;
@@ -502,15 +579,13 @@ margin on the iframe, cause it breaks stuff. */
 .post_excrept_wrap
 {
 	width: 100%;
-	border-bottom:1px solid #ddd;
 	margin-bottom: 6rem;
 }
 
 .excerptfooter_typesome {
 	width: 100%;
 	position: relative;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-family: 'Proxima_nova_rgbold', sans-serif;
 	font-size: 1.6rem;
 	color: #383838; 
 	}
@@ -783,7 +858,6 @@ margin on the iframe, cause it breaks stuff. */
     max-width: 780px;
     border: none;
     margin: 0 auto 4rem;
-    border-top: 1px solid #ddd;
 }
 
 .remove {
