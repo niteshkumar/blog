@@ -684,8 +684,6 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .footer_typesome {
-	background: #f5f5f5;
-	border-top:1px solid #ddd;
 	width: 100%;
 	}
 	
@@ -710,7 +708,7 @@ margin on the iframe, cause it breaks stuff. */
 	width: 32px;
 	height: 32px;
 	border-radius: 100%;
-	border:2px solid #bbb;
+	background-color: #aaa;
 	}
 	
 .footer_typesome ul:last-child {
@@ -719,7 +717,7 @@ margin on the iframe, cause it breaks stuff. */
 	
 .footer_typesome ul li a {
 	line-height: 2.2em;
-	color: #bbb;
+	color: #fff;
 	text-decoration: none;
 	font-size: 1.6rem;
 	width: 32px;
@@ -727,14 +725,14 @@ margin on the iframe, cause it breaks stuff. */
 	}
 	
 .footer_typesome ul li:hover {
- 	border:2px solid #aaa;
+	background-color: #4099ff !important;
     -webkit-transition:border 0.25s;
    -moz-transition:border 0.25s;
      -o-transition:border 0.25s;
         transition:border 0.25s;
 		}
 .footer_typesome ul li a:hover {
-	color: #4099ff !important;
+	color: #fff !important;
 	-webkit-transition:color 0.25s;
    	-moz-transition:color 0.25s;
     -o-transition:color 0.25s;
@@ -759,6 +757,7 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
     background: #202020;
     border-radius: 5px;
+    display:none !important; 
 	}
 	
 	/* The little chiclet arrow under the tooltip, pointing down */
@@ -868,6 +867,7 @@ margin on the iframe, cause it breaks stuff. */
 	text-decoration: none;
 	overflow: hidden;
 	position: relative;
+	display: none;
 	}
 
 .back_typesome p {
