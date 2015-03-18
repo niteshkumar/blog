@@ -302,8 +302,8 @@ margin on the iframe, cause it breaks stuff. */
    					3. General - The main styles for the the theme 
    ========================================================================== */
   
-.site-head {height: 400px;}
-#site-head {height: 400px;}
+.site-head {height: 500px;}
+#site-head {height: 500px;}
 
 .site-head, #site-head {
 	position: relative;
@@ -408,7 +408,7 @@ margin on the iframe, cause it breaks stuff. */
 .name 
 {
 	float: left;
-	padding: 20px 24px 15px 40px;
+	padding: 16px 24px 12px 40px;
 	font-family: "Proxima_novasemibold";
 	color: rgba(0,0,0,0.8);
 }
@@ -433,7 +433,7 @@ margin on the iframe, cause it breaks stuff. */
 .nav a 
 {
 	float:right;
-	padding: 20px 0px 15px 40px;
+	padding: 16px 0px 12px 40px;
 	font-family: "Proxima_novasemibold";
 	font-size: 13px;
 	color: rgba(0,0,0,0.5);
